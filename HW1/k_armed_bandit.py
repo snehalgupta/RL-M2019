@@ -95,7 +95,7 @@ def run(epsilon,mode,c,is_stationary,nos,is_ucb):
     bandit = k_armed_bandit(no_of_bandits, no_of_steps, no_of_runs,epsilon, 0.1,mode,c,is_stationary)
     rewards, optimal_action = bandit.solve(is_ucb)
     return rewards,optimal_action
-"""
+
 # Question 1
 
 r1,o1 = run(0.1,'constant_alpha',0,False,10000,0)
@@ -116,7 +116,7 @@ plt.xlabel('Steps')
 file_name = 'q1_final'+ '.png'
 plt.savefig(file_name)
 plt.close()
-"""
+
 # Question 2
 
 r1,o1 = run(0,'constant_alpha',5,True,1000,0)
@@ -142,7 +142,6 @@ plt.xlabel('Steps')
 plt.legend()
 plt.savefig('q2_nonstat_final_1000.png')
 plt.close()
-"""
 
 # Question 4
 
@@ -169,6 +168,3 @@ plt.plot(r3,label='e-greedy e=0.1')
 plt.legend()
 plt.savefig('q3_final_2.png')
 plt.close()
-"""
-
-
