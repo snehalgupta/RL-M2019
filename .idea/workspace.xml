@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1113536-d6ca-403d-82a8-439e3b7bc6dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/constant_alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/constant_alpha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k_armed_bandit.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/k_armed_bandit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/constant_alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/k_armed_bandit.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q1_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q2_nonstat_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q2_nonstat_final_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q2_stat_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q2_stat_final_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q4_non_stat_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/q4_stat_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/sample_average.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="k_armed_bandit.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW1/k_armed_bandit.py">
+      <file leaf-file-name="2016201_k_armed_bandit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
-              <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+            <state relative-caret-position="1581">
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016201_k_armed_bandit.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -32,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -43,6 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/ten_armed_bandit.py" />
         <option value="$PROJECT_DIR$/k_armed_bandit.py" />
+        <option value="$PROJECT_DIR$/HW1/RL_HW1.ipynb" />
+        <option value="$PROJECT_DIR$/HW1/k_armed_bandit.ipynb" />
         <option value="$PROJECT_DIR$/HW1/k_armed_bandit.py" />
       </list>
     </option>
@@ -59,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,7 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -99,7 +121,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jupyter Notebook.RL">
+    <configuration name="RL" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="RL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,12 +150,16 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Snehal\PycharmProjects\RL\HW1\k_armed_bandit.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Snehal\PycharmProjects\RL\HW1\2016201_k_armed_bandit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Jupyter Notebook.RL" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -140,9 +182,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.168239" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2437107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861635" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -158,7 +200,67 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HW1/k_armed_bandit.py">
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="189" column="11" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
@@ -168,7 +270,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/k_armed_bandit.py">
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2329">
           <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="14" />
@@ -182,22 +284,24 @@
     <entry file="file://$PROJECT_DIR$/1.png" />
     <entry file="file://$PROJECT_DIR$/2.png" />
     <entry file="file://$PROJECT_DIR$/q2_non.png" />
-    <entry file="file://$PROJECT_DIR$/q2_stat.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/q2_stat.png" />
+    <entry file="file://$PROJECT_DIR$/HW1/constant_alpha.png" />
+    <entry file="file://$PROJECT_DIR$/q2_non_stat.png" />
+    <entry file="file://$PROJECT_DIR$/q2_stat2.png" />
+    <entry file="file://$PROJECT_DIR$/HW1/q4_stat_final.png" />
+    <entry file="file://$PROJECT_DIR$/HW1/RL_HW1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/HW1/q4_non_stat_final.png" />
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/constant_alpha.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q2_non_stat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q2_stat2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/k_armed_bandit.py">
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="169" column="11" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
+        <state relative-caret-position="1581">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
