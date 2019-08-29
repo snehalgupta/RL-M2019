@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1113536-d6ca-403d-82a8-439e3b7bc6dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/constant_alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/k_armed_bandit.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q1_final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q2_nonstat_final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q2_nonstat_final_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q2_stat_final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q2_stat_final_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q4_non_stat_final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/q4_stat_final.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/sample_average.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/k_armed_bandit.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016201_k_armed_bandit.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016201_k_armed_bandit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
+            <state relative-caret-position="17">
               <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -36,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016201_k_armed_bandit.ipynb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016201_k_armed_bandit.ipynb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -202,6 +191,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
           <folding>
@@ -291,20 +297,20 @@
     <entry file="file://$PROJECT_DIR$/HW1/q4_stat_final.png" />
     <entry file="file://$PROJECT_DIR$/HW1/RL_HW1.ipynb" />
     <entry file="file://$PROJECT_DIR$/HW1/q4_non_stat_final.png" />
-    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
+        <state relative-caret-position="17">
           <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
