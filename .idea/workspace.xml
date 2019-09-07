@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1113536-d6ca-403d-82a8-439e3b7bc6dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/HW1/k_armed_bandit.ipynb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/2016201_Gridworld.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/2016201_Gridworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,23 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016201_k_armed_bandit.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016201_k_armed_bandit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="383">
               <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016201_k_armed_bandit.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -55,10 +48,12 @@
         <option value="$PROJECT_DIR$/HW1/RL_HW1.ipynb" />
         <option value="$PROJECT_DIR$/HW1/k_armed_bandit.ipynb" />
         <option value="$PROJECT_DIR$/HW1/k_armed_bandit.py" />
+        <option value="$PROJECT_DIR$/HW2/2016201_Gridworld.ipynb" />
+        <option value="$PROJECT_DIR$/HW2/2016201_Gridworld.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1031" />
@@ -70,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,16 +75,17 @@
             <path>
               <item name="RL" type="b2602c69:ProjectViewProjectNode" />
               <item name="RL" type="462c0819:PsiDirectoryNode" />
-              <item name="HW1" type="462c0819:PsiDirectoryNode" />
+              <item name="HW2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW2/2016201_Gridworld.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -110,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.RL">
+  <component name="RunManager" selected="Python.Unnamed">
     <configuration name="RL" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="RL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,19 +130,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Snehal\PycharmProjects\RL\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Snehal\PycharmProjects\RL\HW1\2016201_k_armed_bandit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/2016201_Gridworld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
       <item itemvalue="Jupyter Notebook.RL" />
+      <item itemvalue="Python.Unnamed" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -164,14 +159,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2437107" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26415095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861635" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -189,6 +185,57 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -297,13 +344,17 @@
     <entry file="file://$PROJECT_DIR$/HW1/q4_stat_final.png" />
     <entry file="file://$PROJECT_DIR$/HW1/RL_HW1.ipynb" />
     <entry file="file://$PROJECT_DIR$/HW1/q4_non_stat_final.png" />
-    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-168">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -311,6 +362,16 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
