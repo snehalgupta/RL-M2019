@@ -16,7 +16,7 @@
       <file leaf-file-name="2016201_Gridworld_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="2771">
               <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="e#50#68#0" expanded="true" />
@@ -25,14 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016201_Jack_Car_Rental.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016201_Jack_Car_Rental.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW2/2016201_Jack_Car_Rental.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3043">
+            <state relative-caret-position="551">
               <caret line="179" selection-start-line="179" selection-end-line="179" />
               <folding>
                 <element signature="e#51#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016201_Gridworld_2.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_2.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -210,6 +219,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#50#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW2/2016201_Jack_Car_Rental.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+          <folding>
+            <element signature="e#51#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -404,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -420,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="2771">
           <caret line="164" selection-start-line="164" selection-end-line="164" />
           <folding>
             <element signature="e#50#68#0" expanded="true" />
@@ -430,11 +452,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW2/2016201_Jack_Car_Rental.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
+        <state relative-caret-position="551">
           <caret line="179" selection-start-line="179" selection-end-line="179" />
           <folding>
             <element signature="e#51#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
