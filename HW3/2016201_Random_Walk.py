@@ -112,16 +112,3 @@ def plot_q6_right():
     plt.close()
 
 plot_q6_right()
-
-
-
-
-
-
-
-
-
-
-
-
-

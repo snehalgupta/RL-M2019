@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1113536-d6ca-403d-82a8-439e3b7bc6dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OnPolicy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/2016201_Cliff_Walking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/2016201_Random_Walk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/figure_5_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/figure_5_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/figure_5_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/q6_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/q6_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OnPolicy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/2016201_Cliff_Walking.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/2016201_Random_Walk.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/2016201_Cliff_Walking.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/2016201_Cliff_Walking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/2016201_Random_Walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/2016201_Random_Walk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/figure_5_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/figure_5_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/figure_5_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/figure_5_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/figure_5_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/figure_5_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/q6_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/q6_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/q6_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/q6_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW3/q7.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/q7.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016201_Random_Walk.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016201_Random_Walk.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW3/2016201_Random_Walk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="281">
+              <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -36,23 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016201_Cliff_Walking.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016201_Cliff_Walking.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW3/2016201_Cliff_Walking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="281">
+              <caret line="107" column="15" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016201_k_armed_bandit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -62,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -101,12 +95,17 @@
         <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack.py" />
         <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_On_policy.py" />
         <option value="$PROJECT_DIR$/HW3/test.py" />
-        <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py" />
         <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_Prediction.py" />
         <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_OffPolicy.py" />
         <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.py" />
-        <option value="$PROJECT_DIR$/HW3/2016201_Random_Walk.py" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.ipynb" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.ipynb" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OnPolicy.ipynb" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Cliff_Walking.ipynb" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Random_Walk.ipynb" />
         <option value="$PROJECT_DIR$/HW3/2016201_Cliff_Walking.py" />
+        <option value="$PROJECT_DIR$/HW3/2016201_Random_Walk.py" />
       </list>
     </option>
   </component>
@@ -122,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,12 +228,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21010248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21010248" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13679245" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31761006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861635" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -252,35 +251,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="148" column="41" lean-forward="true" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW2/test_q2.py" />
-    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -427,12 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/figure_5_2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/figure_5_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -443,48 +407,11 @@
     <entry file="file://$PROJECT_DIR$/HW3/figure_5_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="175" column="45" lean-forward="true" selection-start-line="175" selection-start-column="45" selection-end-line="175" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW3/q6_right.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/HW3/q6_left.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OnPolicy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2487">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/2016201_Random_Walk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HW2/2016201_Gridworld_1.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -495,18 +422,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW1/2016201_k_armed_bandit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
+        <state relative-caret-position="17">
           <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/figure_5_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_ES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="195" column="4" lean-forward="true" selection-start-line="195" selection-end-line="195" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OffPolicy.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/figure_5_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OnPolicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="223" column="7" lean-forward="true" selection-start-line="223" selection-start-column="7" selection-end-line="223" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Black_Jack_MC_OnPolicy.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HW3/q7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Cliff_Walking.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Random_Walk.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW3/2016201_Cliff_Walking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="281">
+          <caret line="107" column="15" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/2016201_Random_Walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

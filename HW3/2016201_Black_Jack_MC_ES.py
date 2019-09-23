@@ -227,8 +227,8 @@ def plot_fig_5_2():
     ax.set_title("No usable ace P*")
     ax.set_ylabel("Player sum")
     ax.set_xlabel("Dealer showing")
-
     plt.savefig('figure_5_2.png')
+    plt.show()
     plt.close()
 
 plot_fig_5_2()
