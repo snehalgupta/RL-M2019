@@ -1,6 +1,15 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[14]:
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+
+
+# In[15]:
 
 
 class State:
@@ -13,20 +22,31 @@ class State:
         self.action = n4
 
 
+# In[16]:
+
+
 class BlackJack:
 
     def __init__(self):
 
+        # Dealer policy
+        
         self.dealer_policy = dict()
         for i in range(17):
             self.dealer_policy[i] = "hit"
         for i in range(17, 22):
             self.dealer_policy[i] = "stick"
+        
+        # Initialize the state and action randomly
+        
         player_usable_ace = bool(np.random.choice([0, 1]))
         player_current_sum = np.random.randint(12, 22)
         dealer_showing_card = np.random.randint(1, 11)
         self.initial_state = State(player_current_sum, dealer_showing_card, player_usable_ace)
         self.initial_state.action = np.random.choice(["hit", "stick"])
+        
+        # Initialize dealer sum and dealer usable ace
+        
         self.dealer_current_sum = 0
         self.dealer_usable_ace = False
         self.dealer_not_showing_card = self.hit()
@@ -43,18 +63,20 @@ class BlackJack:
             self.dealer_usable_ace = False
             self.dealer_current_sum = dealer_showing_card + self.dealer_not_showing_card
 
+    # Returns the card drawn after hit action
     def hit(self):
 
         card = np.random.randint(1, 14)
         return min(10, card)
 
+    # Returns action according to player policy
     def player_policy(self, i, state_value, state_count, current_state):
 
-        if i == 0:
+        if i == 0:  # Initial policy
             if current_state.player_current_sum <= 19:
                 return "hit"
             return "stick"
-        else:
+        else: # Current policy
             idx_1 = current_state.player_current_sum - 12
             idx_2 = current_state.dealer_showing_card - 1
             if current_state.player_usable_ace:
@@ -62,6 +84,9 @@ class BlackJack:
             else:
                 sv = state_value[1, idx_1, idx_2, :] / state_count[1, idx_1, idx_2, :]
             max_state_value = np.max(sv)
+            
+            # Finding optimal action
+            
             optimal_actions = list()
             for a in range(sv.shape[0]):
                 if sv[a] == max_state_value:
@@ -77,7 +102,9 @@ class BlackJack:
 
         episode = list()
         current_state = self.initial_state
-
+        
+        # Player's turn
+        
         while True:
             if current_state.action is None:
                 current_state.action = self.player_policy(i, state_value, state_count, current_state)
@@ -87,7 +114,7 @@ class BlackJack:
 
             if current_state.action == "hit":
                 card = self.hit()
-                if card == 1:
+                if card == 1: # Ace card
                     if current_state.player_usable_ace:
                         ace_count = 1
                     else:
@@ -103,16 +130,18 @@ class BlackJack:
                         player_usable_ace = True
                     else:
                         player_usable_ace = False
-                else:
+                else: # Non Ace card
                     player_current_sum = current_state.player_current_sum + card
                 if player_current_sum > 21 and player_usable_ace:
                     player_current_sum = player_current_sum - 10
                     player_usable_ace = False
                 elif player_current_sum > 21:
                     return episode, -1
-            else:
+            else: # Action is stick
                 break
             current_state = State(player_current_sum, current_state.dealer_showing_card, player_usable_ace)
+            
+        # Dealer's turn
 
         while True:
             dealer_action = self.dealer_policy[self.dealer_current_sum]
@@ -149,6 +178,10 @@ class BlackJack:
             return episode, 0
         else:
             return episode, -1
+        
+
+
+# In[17]:
 
 
 class MonteCarloControlES:
@@ -158,6 +191,7 @@ class MonteCarloControlES:
         self.state_action_values = np.zeros((2, 10, 10, 2))
         self.state_action_count = np.ones((2, 10, 10, 2))
 
+    # Monte Carlo with Exploring Starts
     def exploring_starts(self):
 
         for i in range(self.no_of_episodes):
@@ -181,6 +215,9 @@ class MonteCarloControlES:
                 self.state_action_count[index_usable_ace, index_player_sum, index_dealer_showing_card, a_t] += 1
                 t = t - 1
         return self.state_action_values/self.state_action_count
+
+
+# In[18]:
 
 
 def plot_fig_5_2():
@@ -231,4 +268,9 @@ def plot_fig_5_2():
     plt.show()
     plt.close()
 
+
+# In[19]:
+
+
 plot_fig_5_2()
+

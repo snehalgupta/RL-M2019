@@ -1,5 +1,14 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 import numpy as np
 import matplotlib.pyplot as plt
+
+
+# In[ ]:
 
 
 class State:
@@ -11,15 +20,23 @@ class State:
         self.player_usable_ace = n3
         self.action = n4
 
+
+# In[3]:
+
+
 class BlackJack:
 
     def __init__(self):
 
+        # Initialized state
         player_current_sum = 13
         dealer_showing_card = 2
         player_usable_ace = True
         self.initial_state = State(player_current_sum, dealer_showing_card, player_usable_ace)
+        
         self.actions = ["hit","stick"]
+        
+        # Initialized dealer's policy and sum
         self.dealer_policy = dict()
         for i in range(17):
             self.dealer_policy[i] = "hit"
@@ -41,6 +58,7 @@ class BlackJack:
             self.dealer_usable_ace = False
             self.dealer_current_sum = dealer_showing_card + self.dealer_not_showing_card
 
+    # Returns the card after hit action
     def hit(self):
 
         card = np.random.randint(1, 14)
@@ -48,19 +66,21 @@ class BlackJack:
 
     def player_policy(self, type, player_current_sum):
 
-        if type == "target":
+        if type == "target": # Target policy
             if player_current_sum < 20:
                 return "hit"
             else:
                 return "stick"
-        else:
+        else: # Behavior policy
             return np.random.choice(self.actions)
 
     def play_game(self, policy_type):
 
         episode = list()
         current_state = self.initial_state
-
+        
+        # Player's turn
+        
         while True:
             if current_state.action is None:
                 current_state.action = self.player_policy(policy_type, current_state.player_current_sum)
@@ -96,7 +116,9 @@ class BlackJack:
             else:
                 break
             current_state = State(player_current_sum, current_state.dealer_showing_card, player_usable_ace)
-
+        
+        # Dealer's turn
+        
         while True:
             dealer_action = self.dealer_policy[self.dealer_current_sum]
             if dealer_action == "hit":
@@ -132,6 +154,9 @@ class BlackJack:
             return episode, 0
         else:
             return episode, -1
+
+
+# In[4]:
 
 
 class MonteCarloOffPolicy:
@@ -180,6 +205,10 @@ class MonteCarloOffPolicy:
         return error_ordinary, error_weighted
 
 
+
+# In[5]:
+
+
 def plot_fig_5_3():
     monte_carlo_obj = MonteCarloOffPolicy(10000)
     error_ordinary, error_weighted = monte_carlo_obj.importance_sampling(100)
@@ -193,10 +222,9 @@ def plot_fig_5_3():
     plt.show()
     plt.close()
 
+
+# In[6]:
+
+
 plot_fig_5_3()
-
-
-
-
-
 
